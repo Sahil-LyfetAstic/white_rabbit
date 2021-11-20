@@ -1,0 +1,86 @@
+<section class="content">
+    <div class="container-fluid">
+        <div class="block-header">
+            <div class="row">
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                    <ul class="breadcrumb breadcrumb-style ">
+                        <li class="breadcrumb-item">
+                            <h4 class="page-title">Admin Home</h4>
+                        </li>
+                        <li class="breadcrumb-item bcrumb-1">
+                            <a href="../../index.html">
+                                <i class="fas fa-home"></i> White Rabbit</a>
+                        </li>
+                        <li class="breadcrumb-item active">User Details</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+
+        <section>
+
+
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                <strong>TDL</strong> Details
+                            </h2>
+
+                        </div>
+                        <div class="body" id="user-details">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped table-hover js-basic-example dataTable"
+                                    id="user-table">
+                                    <tr>
+                                        <th>Info</th>
+                                        <th>Details</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>First Name</td>
+                                        <td>{{user.fname}}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Last Name</td>
+                                        <td>{{user.lname}}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Email</td>
+                                        <td>{{user.email}}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Phone</td>
+                                        <td>{{user.phone}}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Achievements</td>
+                                        <td>{{user.Achievements}}</td>
+                                        < </tr>
+                                    <tr>
+                                        <td>Introduction</td>
+                                        <td>{{user.Introduction}}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Experience</td>
+                                        <td>{{user.Experience}}</td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
