@@ -43,14 +43,14 @@ $("#add-user").on("click", () => {
         data: $(form).serialize(),
         success: (response) => {
           if (response.user === true) {
-            alert("user exist");
+            $('#error-msg').html('user already exist').css('color','red').show().delay(1000).hide(0)
             form.reset();
           } else if (response.added === true) {
-            alert("user addedd successfully");
+            $('#error-msg').html('successfully addedd').css('color','green').show().delay(1000).hide(0)
             form.reset();
             $("#user-details").load(location.href + " #user-details");
           } else {
-            alert("something went wrong");
+            $('#error-msg').html('something went wrong').css('color','red').show().delay(1000).hide(0)
             form.reset();
           }
         },
