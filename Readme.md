@@ -9,8 +9,25 @@ Getting Started
 
 Prerequisites
 
-1.npm
+
+1.install Nodejs Latest version
+
+cd ~
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+
+sudo bash nodesource_setup.sh
+
+sudo apt install nodejs
+
+node -v
+
+//output
+v16.6.1
+
+
+2.npm
 npm install npm@latest -g
+
 
 Installation
 
