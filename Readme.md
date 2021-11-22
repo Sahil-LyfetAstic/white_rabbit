@@ -22,7 +22,7 @@ sudo apt install nodejs
 node -v
 
 //output
-v16.6.1
+v16.13.0
 
 
 2.npm
